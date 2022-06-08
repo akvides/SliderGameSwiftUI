@@ -11,6 +11,7 @@
 		74A6221B28509D4F00AD04DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6221A28509D4F00AD04DD /* ContentView.swift */; };
 		74A6221D28509D5100AD04DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74A6221C28509D5100AD04DD /* Assets.xcassets */; };
 		74A6222028509D5100AD04DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74A6221F28509D5100AD04DD /* Preview Assets.xcassets */; };
+		74A622272850A6B200AD04DD /* SliderUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A622262850A6B100AD04DD /* SliderUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		74A6221A28509D4F00AD04DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		74A6221C28509D5100AD04DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74A6221F28509D5100AD04DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		74A622262850A6B100AD04DD /* SliderUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				74A6221828509D4F00AD04DD /* SliderGameSwiftUIApp.swift */,
 				74A6221A28509D4F00AD04DD /* ContentView.swift */,
+				74A622262850A6B100AD04DD /* SliderUI.swift */,
 				74A6221C28509D5100AD04DD /* Assets.xcassets */,
 				74A6221E28509D5100AD04DD /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74A622272850A6B200AD04DD /* SliderUI.swift in Sources */,
 				74A6221B28509D4F00AD04DD /* ContentView.swift in Sources */,
 				74A6221928509D4F00AD04DD /* SliderGameSwiftUIApp.swift in Sources */,
 			);
@@ -275,6 +279,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +309,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
